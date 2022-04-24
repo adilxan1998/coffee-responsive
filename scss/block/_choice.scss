@@ -1,0 +1,125 @@
+.choice__inner {
+  margin-top: 150px;
+  background-color: #282F38FF;
+  border-radius: 10px;
+}
+
+.choice__title {
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;  
+  color: #FEFCF7;
+}
+
+.choice__text {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;  
+  color: #FEFCF7;  
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choice__list {
+  max-width: 1110px;
+  transform: translateY(100px);
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.choice__item {
+  width: 350px;
+  padding-bottom: 35px;
+  padding-top: 70px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #0E8784FF;
+}
+
+.choice__additional-title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;  
+  color: #FEFCF7;
+}
+
+.choice__additional-text {
+  width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;  
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 1100px) {
+  .choice__title {
+    font-size: 32px;
+  }
+  
+  .choice__list {
+    max-width: 573px;
+    display: block;
+  }
+
+  .choice__text {
+    padding: 0 20px;
+  }
+
+  .choice__item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  .choice__additional-text {
+    width: 80%; 
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .choice__item {
+    width: 70%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    padding-top: 72px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .choice__additional-title {
+    font-size: 24px;
+  }
+
+  .choice__additional-text {
+    font-size: 15px;
+  }
+}

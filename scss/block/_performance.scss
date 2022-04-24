@@ -1,0 +1,143 @@
+.performance__inner {
+  max-width: 1095px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.performance__title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.performanse__box-line {
+  max-width: 790px;
+  margin-bottom: 82px;
+  display: flex;
+  align-items: center;
+  margin-top: 95px;
+}
+
+.perfermance__img {
+  width: 31px;
+  height: 31px;
+}
+
+.performance__line {
+  width: 360px;
+  height: 2px;
+  background-color: #FDD6BA;
+  border: none;
+}
+
+.performanc__list {
+  max-width: 1045px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.performance__item {
+  max-width: 285px;
+}
+
+.performance__additional-title {
+  max-width: 200px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.performance__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 915px) {
+  .performance__inner {
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+  }
+  
+  .performance__title {
+    margin-left: 25px;
+  }
+  
+  .performanse__box-line {
+    max-width: 470px;
+    margin-left: 25px;
+  }
+
+  .performance__line {
+    width: 250px;
+  }
+
+  .performance__item {
+    padding: 0 25px;
+  }
+  
+  .performance__additional-title {
+    max-width: 150px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .performance__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .perfermance__btn {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .performance__inner {
+    text-align: center;
+  }
+
+  .performance__title {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .performanse__box-line {
+    display: none;
+  }
+
+  .performanc__list {
+    display: block;
+  }
+
+  .performance__item {
+    margin-top: 56px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .performance__additional-title {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .perfermance__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
