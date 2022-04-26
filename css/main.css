@@ -1056,3 +1056,349 @@ body {
     height: 24px;
   }
 }
+
+.about-us__inner {
+  margin-top: 45px;
+  background-image: url(../../img/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
+}
+
+.about-us__box {
+  max-width: 445px;
+  padding-top: 137px;
+  margin-left: 85px;
+  padding-bottom: 137px;
+}
+
+.about-us__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about-us__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-us__box {
+    max-width: 398px;
+    margin-left: 58px;
+    margin-right: 20px;
+  }
+  .about-us__title {
+    font-size: 32px;
+  }
+  .about-us__text {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-us__box {
+    max-width: 279px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 111px;
+    padding-bottom: 87px;
+  }
+  .about-us__title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .about-us__box {
+    margin: 0;
+    padding: 0;
+    margin: 0 25px;
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+}
+
+.obligation__inner {
+  padding-top: 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.obligation__img {
+  max-width: 445px;
+  max-height: 520px;
+}
+
+.obligation__box {
+  max-width: 540px;
+  margin-left: 30px;
+}
+
+.obligation__title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.obligation__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 870px) {
+  .obligation__inner {
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+  }
+  .obligation__box {
+    width: 100%;
+    height: auto;
+  }
+  .obligation__title {
+    font-size: 32px;
+  }
+  .obligation__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .obligation__img {
+    width: 281px;
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .obligation__inner {
+    display: block;
+  }
+  .obligation__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .obligation__box {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.quality__inner {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #293039FF;
+  border-radius: 10px;
+}
+
+.quality__box {
+  max-width: 540px;
+  padding: 0 25px;
+}
+
+.quality__title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.quality__img {
+  max-width: 100%;
+  height: auto;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.quality__img-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .quality__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .quality__box {
+    margin-top: -70px;
+  }
+  .quality__title {
+    margin-top: 0;
+    font-size: 32px;
+    text-align: center;
+  }
+  .quality__text {
+    font-size: 15px;
+    text-align: center;
+  }
+  .quality__img {
+    display: none;
+  }
+  .quality__img-2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 50px;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quality__inner {
+    margin-top: 150px;
+  }
+  .quality__box {
+    margin-top: -30px;
+  }
+  .quality__title {
+    font-size: 28px;
+  }
+  .quality__img-2 {
+    margin: 0;
+    padding: 0;
+    padding: 0 20px;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+}
+
+.address__inner {
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.address__title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.address__list {
+  max-width: 930px;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.address__item {
+  max-width: 285px;
+}
+
+.address__additional-title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.address__span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 750px) {
+  .address__inner {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    padding: 0 30px;
+  }
+  .address__additional-title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .address__inner {
+    text-align: center;
+  }
+  .address__title {
+    margin: 0;
+    padding: 0;
+  }
+  .address__list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .address__item {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .address__additional-title {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,74 @@
+.about-us__inner {
+  margin-top: 45px;
+  background-image: url(../../img/hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
+}
+
+.about-us__box {
+  max-width: 445px;
+  padding-top: 137px;
+  margin-left: 85px;
+  padding-bottom: 137px;
+}
+
+.about-us__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about-us__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-us__box {
+    max-width: 398px;
+    margin-left: 58px;
+    margin-right: 20px;
+  }
+ 
+  .about-us__title {
+    font-size: 32px;
+  }
+
+  .about-us__text {
+    font-size:  15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-us__box {
+    max-width: 279px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 111px;
+    padding-bottom: 87px;    
+  }
+
+  .about-us__title {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .about-us__box {
+    margin: 0;
+    padding: 0;
+    margin: 0 25px;
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+}

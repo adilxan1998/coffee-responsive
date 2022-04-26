@@ -1,0 +1,84 @@
+.obligation__inner {
+  padding-top: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.obligation__img {
+  max-width: 445px;
+  max-height: 520px;
+}
+
+.obligation__box {
+  max-width: 540px;
+  margin-left: 30px;
+}
+
+.obligation__title {
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+
+.obligation__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;  
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width:870px) {
+  .obligation__inner {
+    margin: 0;
+    padding: 0;
+    margin-top: 70px;
+  }
+  
+  .obligation__box {
+    width: 100%;
+    height: auto;
+  }
+
+  .obligation__title {
+    font-size: 32px;
+  }
+
+  .obligation__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .obligation__img {
+    width: 281px;
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .obligation__inner {
+    display: block;
+  }
+
+  .obligation__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .obligation__box {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
