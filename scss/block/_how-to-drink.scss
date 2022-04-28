@@ -1,0 +1,89 @@
+.how-to-drink {
+  margin-top: 70px;
+  width: 750px;
+}
+
+.how-to-drink__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 90px;
+  margin-bottom: 55px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.how-to-drink__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.how-to-drink__item {
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.how-to-drink__item:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.how-to-drink__item:active {
+  background-color: #0E8784FF;
+}
+
+.how-to-drink__additional-title {
+  margin-left: 28px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.how-to-drink__text {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 730px) {
+  .how-to-drink__title {
+    font-size: 24px;
+  }
+  
+  .how-to-drink__list {
+    display: block;
+  }
+
+  .how-to-drink__item {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    padding: 24px 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .how-to-drink__additional-title {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .how-to-drink__text {
+    width: 100%;  
+  }
+}

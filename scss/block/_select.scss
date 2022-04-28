@@ -1,0 +1,151 @@
+.select__inner {
+  margin-top: 150px;
+  padding-top: 100px;
+  padding-left: 85px;
+
+  background-color: #282F38FF;
+  border-radius: 10px;
+}
+
+.select__box-line {
+  max-width: 790px;
+  margin-bottom: 82px;
+  display: flex;
+  align-items: center;
+}
+
+.select__img {
+  width: 31px;
+  height: 31px;
+}
+
+.select__line {
+  width: 360px;
+  height: 2px;
+  background-color: #FDD6BA;
+  border: none;
+}
+
+.select__list {
+  max-width: 1045px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.select__item {
+  max-width: 285px;
+}
+
+.select__title {
+  width: 200px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.select__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;  
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1000px) {
+  .select__box-line {
+    max-width: 550px;
+  }
+  
+  .select__list {
+    padding-bottom: 70px;
+    max-width: 689px;
+  }
+
+  .select__item {
+    max-width: 223px;
+  }
+
+  .select__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .select__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .select__inner {
+    padding-left: 40px;
+  }
+  
+  .select__box-line {
+    max-width: 550px;
+  }
+  
+  .select__list {
+    padding-bottom: 70px;
+    max-width: 689px;
+  }
+  
+  .select__item {
+    max-width: 223px;
+  }
+  
+  .select__title {
+    width: 150px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  
+  .select__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .select__inner {
+    padding-left: 0;
+    margin-top: 110px;
+  }
+  
+  .select__box-line {
+    display: none;
+  }
+
+  .select__list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .select__item {
+    max-width: 100%;
+    padding-bottom: 79px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .select__title {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

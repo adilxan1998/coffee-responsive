@@ -804,10 +804,13 @@ body {
 }
 
 .performance__inner {
-  max-width: 1095px;
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.perfermance__bc {
+  background-color: #282F38FF;
 }
 
 .performance__title {
@@ -1407,4 +1410,415 @@ body {
   .address__additional-title {
     font-size: 28px;
   }
+}
+
+.plan__inner {
+  margin-top: 44px;
+  background-image: url(../img/plan-hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.plan__box {
+  max-width: 485px;
+  padding-top: 134px;
+  padding-bottom: 134px;
+  margin-left: 85px;
+}
+
+.plan__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.plan__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px) {
+  .plan__box {
+    max-width: 398px;
+    margin-left: 58px;
+  }
+  .plan__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .plan__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .plan__box {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  }
+  .plan__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.select__inner {
+  margin-top: 150px;
+  padding-top: 100px;
+  padding-left: 85px;
+  background-color: #282F38FF;
+  border-radius: 10px;
+}
+
+.select__box-line {
+  max-width: 790px;
+  margin-bottom: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.select__img {
+  width: 31px;
+  height: 31px;
+}
+
+.select__line {
+  width: 360px;
+  height: 2px;
+  background-color: #FDD6BA;
+  border: none;
+}
+
+.select__list {
+  max-width: 1045px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 99px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.select__item {
+  max-width: 285px;
+}
+
+.select__title {
+  width: 200px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+
+.select__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1000px) {
+  .select__box-line {
+    max-width: 550px;
+  }
+  .select__list {
+    padding-bottom: 70px;
+    max-width: 689px;
+  }
+  .select__item {
+    max-width: 223px;
+  }
+  .select__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .select__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .select__inner {
+    padding-left: 40px;
+  }
+  .select__box-line {
+    max-width: 550px;
+  }
+  .select__list {
+    padding-bottom: 70px;
+    max-width: 689px;
+  }
+  .select__item {
+    max-width: 223px;
+  }
+  .select__title {
+    width: 150px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .select__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .select__inner {
+    padding-left: 0;
+    margin-top: 110px;
+  }
+  .select__box-line {
+    display: none;
+  }
+  .select__list {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .select__item {
+    max-width: 100%;
+    padding-bottom: 79px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .select__title {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.coffee-list__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.coffee-list__list {
+  margin-top: 160px;
+}
+
+.coffee-list__item {
+  max-width: 255px;
+  list-style-type: none;
+}
+
+.coffee-list__link {
+  text-decoration: none;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  opacity: 0.4;
+}
+
+.coffee-list__link:hover {
+  color: #333D4B;
+  opacity: 0.6;
+}
+
+.coffee-list__link:active {
+  color: #333D4B;
+  opacity: 1;
+}
+
+.coffee-list__line {
+  color: #83888F;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+@media only screen and (max-width: 1100px) {
+  .coffee-list__list {
+    display: none;
+  }
+}
+
+.how-to-drink {
+  margin-top: 70px;
+  width: 750px;
+}
+
+.how-to-drink__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 90px;
+  margin-bottom: 55px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.how-to-drink__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.how-to-drink__item {
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.how-to-drink__item:hover {
+  background: #FDD6BA;
+  border-radius: 8px;
+}
+
+.how-to-drink__item:active {
+  background-color: #0E8784FF;
+}
+
+.how-to-drink__additional-title {
+  margin-left: 28px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.how-to-drink__text {
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 730px) {
+  .how-to-drink__title {
+    font-size: 24px;
+  }
+  .how-to-drink__list {
+    display: block;
+  }
+  .how-to-drink__item {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    padding: 24px 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .how-to-drink__additional-title {
+    margin: 0;
+    padding: 0;
+  }
+  .how-to-drink__text {
+    width: 100%;
+  }
+}
+
+.order {
+  padding: 27px 43px;
+  margin-top: 110px;
+  background-color: #282F38FF;
+  border-radius: 10px;
+}
+
+.order__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.order__text {
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.order__span {
+  color: #0E8784FF;
+}
+
+.order__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 14px 35px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+  background: #0E8784;
+  border-radius: 6px;
 }
